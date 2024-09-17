@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jobstore Malaysia - Search Jobs in Malaysia | September 2024</title>
+  </head>
+  <body>
+    <!-- header -->
+    <div class="header">
+      <div class="jobstore_banner" id="jobstore_banner">
+        <h4>Congratulations! You just received recommendation!
+        <span> Check it out now <span></h4>
+        
+      </div>
+      <div class="header_top">
+        <div class="header_nav">
+          <a href="#">Browse Jobs</a>
+          <a href="#">Companies</a>
+          <a href="#">Campus Hiring</a>
+          <a href="#">Resources</a>
+          <a href="#">Download App</a>
+        </div>
+        <div class="header_button">
+          <a href="#">Sign In</a>
+          <a href="#">Register</a>
+          <button id="employer_button"><a href="#">Employer</a></button>
+        </div>
+      </div>
+      <div class="header_middle">
+        <div class="header_logo">
+          <a href="www.jobstore.my">
+            <img
+              src="https://assets.jobstore.my/images/branding/jobstore_logo_blue.png"
+              alt="Jobstore malaysia logo"/>
+          </a>
+        </div>
+        <div class="header_searchbox">
+          
+          <form action="#" class="search_bar">
+            <label for="job"></label>
+            <input class= "search_input" type="text" id="job" placeholder="Better Job, Better Me">
+            <p>|</p>
+            <label for="location"></label>
+            <input class= "search_input" type="text" id="location" placeholder="Malaysia">
+            <button class="location"><img src="https://assets.jobstore.my/images/icon/icon_locpin_black.png"></button>
+            <input class= "search_submit" type="image" value="Submit" src="https://assets.jobstore.my/images/icon/icon_searchglass_blue.png">
+          </form>
+        </div>
+        <div class="searchbox_view"><button class="view_button"><a href="#">View All Jobs</a></button></div>
+        <div class="header_image">
+          
+          <img src="https://assets.jobstore.my/mycareerfair/images/branding/mycareerfair_logo_heart_orange.png" alt="career fair">
+        </div>
+      </div>
+      <div class="header_bottom">
+        <div class="header_countdown">
+          <div class="time_countdown">
+
+            <div>
+              <p id="days">:</p>
+              <p class="format">Days</p>
+            </div>
+            <div>
+              <p id="hours">:</p>
+              <p class="format">Hours</p>
+            </div>
+            <div>
+              <p id="minutes">:</p>
+              <p class="format">Minutes</p>
+            </div>
+            <div>
+              <p id="seconds">:</p>
+              <p class="format">Seconds </p>
+              <p></p>
+            </div>
+            <div class="image_countdown">
+              <img src="https://assets.jobstore.my/mycareerfair/images/branding/mycareerfair_logo_heart_white.png">
+            </div>
+            <div class="loc_countdown">
+              <p id="date">| 26 & 27 October 2024</p>
+              <p id="place">KUALA LUMPUR CONVENTION CENTRE</p>
+            </div>
+            
+          </div>
+        </div>
+        <div class="header_vacancy_gov">
+          <img src="https://assets.jobstore.my/images/layouts/header_my_banner.png" style="width: 90%;">
+          <div class="text">KERJA KOSONG KERAJAAN</div>
+        </div>
+        <div class="header_vacancy_singapore">
+          <img src="https://assets.jobstore.my/images/layouts/header_sg_banner.png">
+        </div>
+      </div>
+          
+        
+      
+      <!-- <div class="header_top" id="header_top">
+        
+        <div class="search_bar">
+          <div class="search_logo">
+            <a href="www.jobstore.my">
+              <img
+                src="https://assets.jobstore.my/images/branding/jobstore_logo_blue.png"
+                alt="Jobstore malaysia logo"
+              />
+            </a>
+          </div>
+          <a class="active" href="#home">Home</a>
+          <input type="text" placeholder="Search.." name="search" />
+          <a href="#">View all job</a>
+        </div>
+      </div> -->
+  </div>
+    <!-- end header -->
+
+    <!-- page trend job -->
+    <div class="index_container" id="index_container">
+      <div class="main_content">
+        <div class="trend_job_tab">
+          <div class="trend_top">
+            <a href="#">#Trending Jobs</a>
+            <a href="#">#Highest Paying Jobs</a>
+            <a href="#">#Internship</a>
+            <a href="#">#Recruiter</a>
+            <button class="tablink" onclick="openTrend('second_trend_tab', this)">></button>
+            <button class="tablink" onclick="openTrend('first_trend_tab', this)" id="defaultOpen"><</button>
+            
+          </div>
+
+          <div id="first_trend_tab" class="tabcontent">
+            <div class="container1" id="trend">
+              <div class="box-container1">
+                <div class="box">
+                  <button class="state_button"><a>Selangor</a></button>
+                  <h4><b>Business Development / Sales Executive</b></h4>
+                  <div class="company_title">Exterpark Sdn Bhd</div>
+                  <div class="company_logo">
+                    <img
+                      src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                    />
+                  </div>
+                </div>
+                <div class="box">
+                  <button class="state_button"><a>Selangor</a></button>
+                  <h4><b>Business Development / Sales Executive</b></h4>
+                  <div class="company_title">Exterpark Sdn Bhd</div>
+                  <div class="company_logo">
+                    <img
+                      src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                    />
+                  </div>
+                </div>
+                <div class="ads_slide">
+                  <div class="slide_pic">
+                    <img src="https://assets.jobstore.my/images/layouts/featured/banner_allianz.jpg" alt="">
+                  </div>
+                </div>
+                <div class="box">
+                  <button class="state_button"><a>Selangor</a></button>
+                  <h4><b>Business Development / Sales Executive</b></h4>
+                  <div class="company_title">Exterpark Sdn Bhd</div>
+                  <div class="company_logo">
+                    <img
+                      src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                    />
+                  </div>
+                </div>
+                <div class="box">
+                  <button class="state_button"><a>Selangor</a></button>
+                  <h4><b>Business Development / Sales Executive</b></h4>
+                  <div class="company_title">Exterpark Sdn Bhd</div>
+                  <div class="company_logo">
+                    <img
+                      src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                    />
+                  </div>
+                </div>
+                <div class="box">
+                  <button class="state_button"><a>Selangor</a></button>
+                  <h4><b>Business Development / Sales Executive</b></h4>
+                  <div class="company_title">Exterpark Sdn Bhd</div>
+                  <div class="company_logo">
+                    <img
+                      src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                    />
+                  </div>
+                </div>
+                <div class="box">
+                  <button class="state_button"><a>Selangor</a></button>
+                  <h4><b>Business Development / Sales Executive</b></h4>
+                  <div class="company_title">Exterpark Sdn Bhd</div>
+                  <div class="company_logo">
+                    <img
+                      src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                    />
+                  </div>
+                </div>
+                <div style="background-color:#c6def0d5;">
+                </div>
+                <div class="box">
+                  <button class="state_button"><a>Selangor</a></button>
+                  <h4><b>Business Development / Sales Executive</b></h4>
+                  <div class="company_title">Exterpark Sdn Bhd</div>
+                  <div class="company_logo">
+                    <img
+                      src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                    />
+                  </div>
+                </div>
+                <div class="box">
+                  <button class="state_button"><a>Selangor</a></button>
+                  <h4><b>Business Development / Sales Executive</b></h4>
+                  <div class="company_title">Exterpark Sdn Bhd</div>
+                  <div class="company_logo">
+                    <img
+                      src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                    />
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+      
+
+
+          <div id="second_trend_tab" class="tabcontent">
+            <div class="container1">
+              <div class="box-container1">
+                <div class="box">
+                  <button class="state_button"><a>Selangor</a></button>
+                  <h4><b>Sales and Marketing Manager</b></h4>
+                  <div class="company_title">Fujikura Kasei Malaysia Sdn. Bhd</div>
+                  <div class="company_logo">
+                    <img
+                      src="https://assets.jobstore.com/uploads/image/518607/cKtn2BkiXz/fujikurakaseilogo.png"
+                    />
+                  </div>
+                </div>
+
+                <div class="box">
+                  <button class="state_button"><a>Selangor</a></button>
+                  <h4><b>Sales and Marketing Manager</b></h4>
+                  <div class="company_title">Fujikura Kasei Malaysia Sdn. Bhd</div>
+                  <div class="company_logo">
+                    <img
+                      src="https://assets.jobstore.com/uploads/image/518607/cKtn2BkiXz/fujikurakaseilogo.png"
+                    />
+                  </div>
+                </div>
+                <div class="ads_slide">
+                  <div class="slide_pic">
+                    <img src="https://assets.jobstore.my/images/layouts/featured/banner_allianz.jpg" alt="">
+                  </div>
+                </div>
+                
+                <div class="box">
+                  <button class="state_button"><a>Selangor</a></button>
+                  <h4><b>Sales and Marketing Manager</b></h4>
+                  <div class="company_title">Fujikura Kasei Malaysia Sdn. Bhd</div>
+                  <div class="company_logo">
+                    <img
+                      src="https://assets.jobstore.com/uploads/image/518607/cKtn2BkiXz/fujikurakaseilogo.png"
+                    />
+                  </div>
+                </div>
+                <div class="box">
+                  <button class="state_button"><a>Selangor</a></button>
+                  <h4><b>Sales and Marketing Manager</b></h4>
+                  <div class="company_title">Fujikura Kasei Malaysia Sdn. Bhd</div>
+                  <div class="company_logo">
+                    <img
+                      src="https://assets.jobstore.com/uploads/image/518607/cKtn2BkiXz/fujikurakaseilogo.png"
+                    />
+                  </div>
+                </div>
+                
+                <div class="box">
+                  <button class="state_button"><a>Selangor</a></button>
+                  <h4><b>Sales and Marketing Manager</b></h4>
+                  <div class="company_title">Fujikura Kasei Malaysia Sdn. Bhd</div>
+                  <div class="company_logo">
+                    <img
+                      src="https://assets.jobstore.com/uploads/image/518607/cKtn2BkiXz/fujikurakaseilogo.png"
+                    />
+                  </div>
+                </div>
+                <div class="box">
+                  <button class="state_button"><a>Selangor</a></button>
+                  <h4><b>Sales and Marketing Manager</b></h4>
+                  <div class="company_title">Fujikura Kasei Malaysia Sdn. Bhd</div>
+                  <div class="company_logo">
+                    <img
+                      src="https://assets.jobstore.com/uploads/image/518607/cKtn2BkiXz/fujikurakaseilogo.png"
+                    />
+                  </div>
+                </div>
+                <div style="background-color:#c6def0d5;"></div>
+                <div class="box">
+                  <button class="state_button"><a>Selangor</a></button>
+                  <h4><b>Sales and Marketing Manager</b></h4>
+                  <div class="company_title">Fujikura Kasei Malaysia Sdn. Bhd</div>
+                  <div class="company_logo">
+                    <img
+                      src="https://assets.jobstore.com/uploads/image/518607/cKtn2BkiXz/fujikurakaseilogo.png"
+                    />
+                  </div>
+                </div>
+                <div class="box">
+                  <button class="state_button"><a>Selangor</a></button>
+                  <h4><b>Sales and Marketing Manager</b></h4>
+                  <div class="company_title">Fujikura Kasei Malaysia Sdn. Bhd</div>
+                  <div class="company_logo">
+                    <img
+                      src="https://assets.jobstore.com/uploads/image/518607/cKtn2BkiXz/fujikurakaseilogo.png"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+      </div>
+        
+         <!-- end trend job -->
+
+
+      <!-- latest job -->
+      <div class="latest_jobs">
+        <div class="container">
+          <div class="heading_section">
+            <h2>Latest Jobs</h2>
+            <div class="view_all"><a href="#">see all jobs ></a></div>
+          </div>
+          <div class="box-container">
+            
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://assets.jobstore.my/images/branding/jobstore_sharing_banner.png">
+              </div>
+              <button class="state_button"><a>Selangor</a></button>
+              <h4><b>Business Development / Sales Executive</b></h4>
+              <div class="company_title">Exterpark Sdn Bhd</div>
+              <div class="company_logo">
+                <img
+                  src="https://assets.jobstore.com/uploads/user/image/2023/1330109/hG7tmNDhVt/ImagotipoExterparkvertical-100.jpg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end latest job -->
+
+      <!-- news & article -->
+      <div class="news_articles">
+        <div class="container">
+          <div class="heading_section">
+            <h2>News and Articles</h2>
+            <div class="view_all"><a href="#">view all ></a></div>
+          </div>
+          <div class="box-container">
+            <div class="box">
+              <div class="box_image">
+                <img src="https://s3-ap-southeast-1.amazonaws.com/jobstoreblog/wp-content/uploads/sites/2/2024/09/11070211/Starbucks-new-CEO-promises-to-turn-things-around-scaled-e1726038159517.jpg" />
+              </div>
+              <div class="news_span">News</div>
+              <div class="news_title"><a href="#">Starbucks new CEO promises to turn things around</a></div>
+              <div class="news_date"><span>11.09.2024</span></div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src="https://s3-ap-southeast-1.amazonaws.com/jobstoreblog/wp-content/uploads/sites/2/2024/09/04070320/Malaysian-Millennials-Hit-Hardest-by-Burnout-as-Remote-Work-Proves-a-Lifeline.jpg" />
+              </div>
+              <div class="news_span">News</div>
+              <div class="news_title"><a href="#">
+                Malaysian Millennials Hit Hardest by Burnout as Remote Work Proves a Lifeline</a></div>
+              <div class="news_date"><span>04.09.2024</span></div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src ="https://s3-ap-southeast-1.amazonaws.com/jobstoreblog/wp-content/uploads/sites/2/2024/08/30040157/The-Role-of-Progressive-Wage-in-Reducing-Income-Inequality.jpg"/>
+              </div>
+              <div class="news_span">News</div>
+              <div class="news_title">
+                <a href="#"> Role of Progressive Wage in Reducing Income Inequality</a>
+                </div>
+              <div class="news_date"><span>11.09.2024</span></div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src ="https://s3-ap-southeast-1.amazonaws.com/jobstoreblog/wp-content/uploads/sites/2/2024/08/30040157/The-Role-of-Progressive-Wage-in-Reducing-Income-Inequality.jpg"/>
+              </div>
+              <div class="news_span">News</div>
+              <div class="news_title">
+                <a href="#"> Role of Progressive Wage in Reducing Income Inequality</a>
+                </div>
+              <div class="news_date"><span>11.09.2024</span></div>
+            </div>
+            <div class="box">
+              <div class="box_image">
+                <img src ="https://s3-ap-southeast-1.amazonaws.com/jobstoreblog/wp-content/uploads/sites/2/2024/08/30040157/The-Role-of-Progressive-Wage-in-Reducing-Income-Inequality.jpg"/>
+              </div>
+              <div class="news_span">News</div>
+              <div class="news_title">
+                <a href="#"> Role of Progressive Wage in Reducing Income Inequality</a>
+                </div>
+              <div class="news_date"><span>11.09.2024</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end news & article -->
+    </div>
+    <footer>
+      <div class="footer_section">
+        <div class="footer_top">
+          <div class="footer_company">
+            <div class="footer_company_logo">
+              <a href="www.jobstore.my">
+                <img
+                  src="https://assets.jobstore.my/images/branding/jobstore_logo_blue.png"
+                  alt="Jobstore malaysia logo"
+                />
+              </a>
+            </div>
+            <div class="footer_company_option">
+              
+                <select id="company_branch">
+                  <option value="malaysia">Jobstore Malaysia</option>
+                  <option value="singapore">Jobstore Singapore</option>
+                  <option value="hong_kong">Jobstore Hong Kong</option>
+                  <option value="philippines">Jobstore Philippines</option>
+                  <option value="indonesia">Jobstore Indonesia</option>
+                  <option value="Australia">Jobstore Australia</option>
+                  <option value="united_state">Jobstore United States</option>
+                </select>
+            </div>
+          </div>
+          <div class="footer_jobseeker">
+            <div class="footer_heading">JOBSEEKERS</div>
+              <div class="footer_link">
+                <a href="#">Create Account</a>
+                <a href="#">Sign In</a>
+                <a href="#">search Jobs</a>
+                <a href="#">earch Employers</a>
+                <a href="#">Featured Companies</a>
+                <a href="#">Government Jobs</a>
+                <a href="#">Working in Singapore</a>
+                <a href="#">My Career Fair</a>
+                <a href="#">Industry News</a>
+              </div>
+          </div>
+
+          <div class="footer_corporate">
+            <div class="footer_heading">CORPORATE</div>
+            <div class="footer_link">
+              <a href="#">Create Account</a>
+              <a href="#">Product & Services</a>
+              <a href="#">Pricing & Plan</a>
+              <a href="#">Advertise Jobs</a>
+              <a href="#">Industry News</a>
+              <a href="#">Customer Support</a>
+              <a href="#">Contact Sales</a>
+            </div>
+          </div>
+
+          <div class="footer_about">
+            <div class="footer_heading">ABOUT</div>
+            <div class="footer_link">
+              <a href="#">About Us</a>
+              <a href="#">Mobile App</a>
+              <a href="#">FAQs</a>
+              <a href="#">Contact Support</a>
+              <a href="#">Careers @ Jobstore</a>
+              <a href="#">Blog</a>
+              <a href="#">Fullfillment Policy</a>
+            </div>
+          </div>
+          <div class="footer_resource">
+            <div class="footer_heading">RESOURCES</div>
+            <div class="footer_link">
+              <a href="#">Career Guide</a>
+              <a href="#">Job Templates</a>
+              <a href="#">Employer Resources</a>
+              <a href="#">Terms of Service</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Partnership Inquiries</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="footer_copyright">
+            <span>© 2024 Jobstore. All rights reserved.</span>
+          </div>
+          <div class="footer_social_media">
+            <a href="#"><img src="https://assets.jobstore.my/images/icon/icon_social_facebook_round.png"></a>
+            <a href="#"><img src="https://assets.jobstore.my/images/icon/icon_social_linkedin_round.png"></a>
+            <a href="#"><img src="https://assets.jobstore.my/images/icon/icon_social_instagram_round.png"></a>
+            <a href="#"><img src="https://assets.jobstore.my/images/icon/icon_social_pinterest_round.png"></a>
+            <a href="#"><img src="https://assets.jobstore.my/images/icon/icon_social_tiktok_round.png"></a>
+            <a href="#"><img src="https://assets.jobstore.my/images/icon/icon_social_youtube_round.png"></a>
+            <a href="#"><img src="https://assets.jobstore.my/images/icon/icon_social_twitter_round.png"></a>
+            <a href="#"><img src="https://assets.jobstore.my/images/icon/icon_social_whatsapp_round.png"></a>
+          </div>
+          <div class="footer_download">
+            <a href="#"><img src="https://assets.jobstore.my/images/icon/icon_app_applestore_white.png"></a>
+            <a href="#"><img src="https://assets.jobstore.my/images/icon/icon_app_googleplaystore_white.png"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- js script -->
+    <script>
+      function openTrend(cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+          
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].style.backgroundColor = "";
+          
+        }
+        document.getElementById(cityName).style.display = "block";
+        elmnt.style.backgroundColor = color;
+      
+      }
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+
+      // Set the date we're counting down to
+var countDownDate = new Date("Oct 26, 2024 15:37:25").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  // document.getElementById("countdown").innerHTML = days + ":" + hours + ":"
+  // + minutes + ":" + seconds + "";
+  document.getElementById("days").innerHTML = days+ "  :";
+  document.getElementById("hours").innerHTML = hours + "  :";
+  document.getElementById("minutes").innerHTML = minutes + "  :";
+  document.getElementById("seconds").innerHTML = seconds + "   |";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("countdown").innerHTML = "EXPIRED";
+  }
+}, 1000);
+      </script>
+  </body>
+</html>
